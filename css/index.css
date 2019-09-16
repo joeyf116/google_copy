@@ -5,3 +5,73 @@
 html {
     font-size: 16px;
 }
+body {
+    min-height: 500px
+}
+ul {
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+    list-style-type: none;
+}
+
+.header__list li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header--right li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.header--right {
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.wrapper {
+    height:100%;
+    margin-top:89px;
+    text-align: center;
+}
+
+.button-master {
+    text-align: center;
+}
+
+.footer__list_business-list {
+    float: left;
+}
+
+.button1, 
+.button2 {
+   justify-content: center;
+   height: 100%;
+   display: inline-block;
+
+}
+
+.footer__list_legalese-list {
+    float: right;
+}
+
+.footer--main {bottom: 0;
+font-size: 12pt;
+height: 35px;
+position: absolute;
+width: 100%;
+list-style-type: none;
+}
+
+.footer--main li{
+    list-style-type: none;
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+    padding-right: 15px;
+}
